@@ -1,0 +1,79 @@
+body {
+    background-color: rgb(220,222,221);
+}
+
+.header {
+    margin-top: -4vh;
+    margin-left: -2vh;
+    margin-right: -2vh ;
+    background-color: rgb(0,168,132);
+    padding: 8%;
+}
+.app-name-logo{
+    display: flex;
+    align-items: center;
+    padding-left: 9.5%;
+    padding-top: 0%;
+    margin-top: -10.2vh;
+
+}
+.logo-text{
+    display: inline-block;
+    font-family: Segoe UI,Helvetica Neue,Helvetica,Lucida Grande,Arial,Ubuntu,Cantarell,Fira Sans,sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: normal;
+    color: #fff;
+    text-transform: uppercase;
+    vertical-align: middle;
+    padding-left: 10px;
+}
+.box1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box2{
+    margin: -17vh;
+    background-color: rgb(255,255,255);
+    width: 125vh;
+    height: 80vh;
+    box-shadow: 0px -2px 50px 1px rgb(150, 149, 149);
+    border-radius: 3px;
+}
+
+.landing-title {
+    font-size: 28px;
+    font-weight: 300;
+    line-height: normal;
+    color: #41525d;
+}
+.text-image {
+    display: flex;
+    flex-grow: 1;
+    align-items: flex-start;
+}
+.outer-text{
+    padding: 64px 60px 110px;
+}
+.text {
+    flex: none;
+    max-width: 556px;
+}
+ol , ul {
+    padding: 0;
+    margin: 0;
+}
+.before-image{
+    position: relative;
+}
+.images {
+    position: relative;
+    display: flex;
+    flex: none;
+    align-items: center;
+    justify-content: center;
+    width: 264px;
+    height: 264px;
+    overflow: hidden;
+}
