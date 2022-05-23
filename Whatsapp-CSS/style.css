@@ -1,18 +1,22 @@
 body {
+    font-family: Segoe UI,Helvetica Neue,Helvetica,Lucida Grande,Arial,Ubuntu,Cantarell,Fira Sans,sans-serif;
     background-color: rgb(220,222,221);
+    padding-bottom: 30vh;
 }
-
+.landing-window{
+   
+}
 .header {
     margin-top: -4vh;
     margin-left: -2vh;
     margin-right: -2vh ;
     background-color: rgb(0,168,132);
-    padding: 8%;
+    padding: 9%;
 }
 .app-name-logo{
     display: flex;
     align-items: center;
-    padding-left: 9.5%;
+    padding-left: 4%;
     padding-top: 0%;
     margin-top: -10.2vh;
 
@@ -29,51 +33,87 @@ body {
     padding-left: 10px;
 }
 .box1 {
+   
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 .box2{
     margin: -17vh;
     background-color: rgb(255,255,255);
-    width: 125vh;
-    height: 80vh;
+    width: max-content;
+    height: max-content;
     box-shadow: 0px -2px 50px 1px rgb(150, 149, 149);
     border-radius: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  
 }
-
-.landing-title {
+.half-section-1{
+    position: relative;
+    padding: 64px 60px 110px;
+}
+.half-section-2{
+    background-color: rgb(249,249,250);
+    padding: 70px 160px;
+}
+.text-qr{
+    display: flex;
+    flex-grow: 1;
+    align-items: flex-start;
+    max-width: 100%;
+}
+.text{
+    flex: 1 1 auto;
+    max-width: 100%;
+    padding-right: 50px;
+}
+.heading{
+    margin-bottom: 52px;
     font-size: 28px;
     font-weight: 300;
     line-height: normal;
     color: #41525d;
 }
-.text-image {
-    display: flex;
-    flex-grow: 1;
-    align-items: flex-start;
+
+.marker {
+   
+    padding-bottom: 15px;
+    font-size: 18px;
+    line-height: 28px;
+    color: #41525d;
+
 }
-.outer-text{
-    padding: 64px 60px 110px;
+
+.two{
+    visibility: visible;
+    direction: ltr;
+    unicode-bidi: isolate;
 }
-.text {
-    flex: none;
-    max-width: 556px;
+.two-a{
+    display: inline-block;
+    vertical-align: top;
 }
-ol , ul {
-    padding: 0;
-    margin: 0;
-}
-.before-image{
-    position: relative;
-}
-.images {
-    position: relative;
-    display: flex;
-    flex: none;
-    align-items: center;
-    justify-content: center;
-    width: 264px;
-    height: 264px;
+svg{
+    display: block;
+    pointer-events: none;
+    height: 24px;
+    width: 24px;
     overflow: hidden;
+}
+.help-link{
+    position: absolute;
+    bottom: 66px;
+    font-size: 14px;
+    line-height: 1;
+    color: rgb(0,168,132);
+}
+a{
+    text-decoration: none;
+}
+.check{
+    margin-left: -15px;
 }
