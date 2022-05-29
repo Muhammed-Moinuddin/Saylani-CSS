@@ -1,5 +1,6 @@
-div.one{
-    background-color: blue;
-    height: 100px;
-    width: 100px;
+body{
+    background-color: rgb(14,37,59);
+}
+.ml-n {
+    margin-left: -26.5rem ;
 }

@@ -1,36 +1,50 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Portfolio</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
-    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-<body class="bg-black">
-    <div class="container-fluid position-absolute top-50 start-50 translate-middle h-75 p-0" style="width: 190vh ; background-color: rgb(23,25,25);">
-        <div class="row h-100 w-100 g-0">    
-            <div class="col-1 h-100 pt-1">
-                <div class="container-fluid">
-                    <div class="col" style="background-color: rgb(161,66,163); margin-left: -12px; margin-right: -12px; margin-top: -5px; padding-top: 7px; ">
-                        <img src="icons/icons8-menu-48.svg" style="padding-left: 25px; padding-bottom: 7px;">
-                      </div>
-                    <div class="col p-4">
-                       
+  <body>
+    <div class="container-fluid">
+        <div class="row w-75 h-75 position-absolute top-50 start-50 translate-middle g-0">
+            <div class="col-1">
+                <div class="row w-100 h-100 g-0 justify-content-center">
+                    <div class="d-flex flex-column bg-info">
+                        <div class="bg-white" style=" padding-left: 35%; padding-top: 20%; padding-bottom: 20%"><i class="fa fa-bars" style="font-size:25px; color: rgb(14,37,59)"></i></div>
+                        <div class="p-4 m-4"></div>
+                        
+                        <div style="padding-left: 32%; padding-bottom: 30%"><i class="fas fa-user-alt" style="color:white ; font-size:25px"></i></div>
+                        <div style="padding-left: 32%; padding-bottom: 20%;"><i class="fas fa-comment" style="color:white ; font-size:25px"></i></div>
+                        <div style="padding-left: 32%; padding-bottom: 20%;"><i class="fas fa-glasses" style="color:white ; font-size:25px"></i></div>
+                        <div style="padding-left: 32%; padding-bottom: 20%;"><i class="fas fa-edit" style="color:white ; font-size:25px"></i></div>
+                        <div style="padding-left: 32%; padding-bottom: 20%;"><i class="fa fa-briefcase" style="color:white ; font-size:25px"></i></div>
+                        <div class="p-4 m-3"></div>
+                        <div style="padding-left: 28%; padding-bottom: 20%;"><i class="fa fa-cloud-arrow-down" style="color:rgb(14,37,59) ; font-size:25px"></i></div>
                     </div>
-
                 </div>
             </div>
-            <div class="col-5">
-                <img src="Moinuddin.jpeg" alt="" class="img-fluid " style="height: 85vh; margin-top: -7%;">
+            <div class="col-5 bg-info">
+                <img src="moin.jpg" alt="" class="img-fluid responsive" style="height: 88vh; width: 66vh; margin-top: -5.5vh;  position: absolute; box-shadow: -12px 0px 18px  rgb(14,37,59), 12px 0px 18px  rgb(14,37,59);">
+                <p class="carousel-caption ml-n mt-n fs-1 fw-bold font-roboto pb-4 text-white" >M. Moinuddin</p>
+                <div class="row carousel-caption w-25 m-0 g-0 p-0">
+                    <div class="col-3"></div>
+                    <div class="col-2"><i class="fa-brands fa-facebook-f" style="color:white ; font-size:15px"></i></div>
+                    <div class="col-2"><i class="fa-brands fa-github" style="color:white ; font-size:15px"></i></div>
+                    <div class="col-2"><i class="fa-brands fa-linkedin-in" style="color:white ; font-size:15px"></i></div>
+                    <div class="col-2"><i class="fa-brands fa-instagram" style="color:white ; font-size:15px"></i></div>
+                </div>
             </div>
-            <div class="col-6">
-                One of three columns
+            <div class="col-6 bg-info">
+                <div class="overflow-auto">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Error dolorum numquam est debitis tenetur. Minima, consequuntur blanditiis vel totam quisquam architecto earum dignissimos, illum esse labore exercitationem voluptatibus nobis est?
                 </div>
             </div>
         </div>
+    </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
-</body>
+  </body>
 </html>
