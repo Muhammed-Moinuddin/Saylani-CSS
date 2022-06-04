@@ -1,0 +1,70 @@
+body {
+    background-color: lightskyblue;
+    
+}
+/*Universal Selector*/
+*{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+}
+/*Type Selector*/
+h2 {
+    color: blue;
+    
+}
+/*Class Selector*/
+p.note{
+    font-size: medium;
+    
+}
+/*Id Selector*/
+#first{
+    font-size: large;
+}
+/*Child Selector*/
+li>a{
+    color: green;
+}
+/*Descendent Selector*/
+p a{
+    color: red;
+}
+/*Adjacent Sibling Selector*/
+h1+p{
+    color: coral;
+}
+h3~p{
+    color: darkmagenta;
+}
+.page{
+    padding: inherit;
+}
+h3{
+    font-weight: bold;
+    font-style: oblique;
+    text-transform: uppercase;
+    text-decoration: underline;
+    line-height: 1.25em;
+    letter-spacing: 2px;
+    text-align: center;
+}
+span{
+    vertical-align: text-top;
+}
+p.second{
+    text-indent: 20px;
+}
+p.second::first-letter{
+    color: blue;
+}
+a:hover{
+    color: blueviolet;
+}
+input:focus{
+    background-color: yellow;
+}
+a[target]{
+    background-color: pink;
+}
+ol{
+    list-style: inside lower-roman;
+}
